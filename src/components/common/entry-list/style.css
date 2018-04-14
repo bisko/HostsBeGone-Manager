@@ -1,0 +1,26 @@
+.entry-list table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.entry-list table tr.even {
+	background: none;
+}
+
+.entry-list table tr.odd {
+	background: lightgray;
+}
+
+.entry-list table th {
+	background: lightgray;
+}
+
+.entry-list table th, .entry-list table td {
+	padding: 8px;
+	word-break: break-all;
+	max-width: 130px;
+}
+
+.entry-list table th:last-child, .entry-list table td:last-child {
+	text-align: right;
+}
